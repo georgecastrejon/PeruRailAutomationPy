@@ -2,6 +2,7 @@ import unittest
 from selenium import webdriver
 import urllib3
 
+
 class WebDriverSetup(unittest.TestCase):
     def setUp(self):
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
