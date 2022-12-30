@@ -17,4 +17,8 @@ class Test_peruRail(WebDriverSetup):
         peruRail.click_cld()
         peruRail.click_selecCld()
         peruRail.click_button_search()
+        peruRail.click_expand()
+        peruRail.click_fecha()
+        peruRail.click_dia()
+        # peruRail.click_bus()
 
